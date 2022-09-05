@@ -62,10 +62,12 @@ public class StuderBindingConstants {
     public static final String CHANNEL_INPUT_VOLTAGE = "inputVoltage";
     public static final String CHANNEL_INPUT_CURRENT = "inputCurrent";
     public static final String CHANNEL_INPUT_ACTIVE_POWER = "inputActivePower";
+    public static final String CHANNEL_INPUT_ACTIVE_ENERGY = "inputActiveEnergy";
     public static final String CHANNEL_INPUT_FREQUENCY = "inputFrequency";
     public static final String CHANNEL_OUTPUT_VOLTAGE = "outputVoltage";
     public static final String CHANNEL_OUTPUT_CURRENT = "outputCurrent";
     public static final String CHANNEL_OUTPUT_ACTIVE_POWER = "outputActivePower";
+    public static final String CHANNEL_OUTPUT_ACTIVE_ENERGY = "outputActiveEnergy";
     public static final String CHANNEL_OUTPUT_FREQUENCY = "outputFrequency";
     public static final String CHANNEL_OPERATING_STATE = "operatingState";
     public static final String CHANNEL_STATE_INVERTER = "stateInverter";
@@ -126,10 +128,12 @@ public class StuderBindingConstants {
         CHANNELS_XTENDER.put(22, CHANNEL_INPUT_VOLTAGE);
         CHANNELS_XTENDER.put(24, CHANNEL_INPUT_CURRENT);
         CHANNELS_XTENDER.put(274, CHANNEL_INPUT_ACTIVE_POWER);
+        CHANNELS_XTENDER.put(162, CHANNEL_INPUT_ACTIVE_ENERGY);
         CHANNELS_XTENDER.put(168, CHANNEL_INPUT_FREQUENCY);
         CHANNELS_XTENDER.put(42, CHANNEL_OUTPUT_VOLTAGE);
         CHANNELS_XTENDER.put(44, CHANNEL_OUTPUT_CURRENT);
         CHANNELS_XTENDER.put(272, CHANNEL_OUTPUT_ACTIVE_POWER);
+        CHANNELS_XTENDER.put(166, CHANNEL_OUTPUT_ACTIVE_ENERGY);
         CHANNELS_XTENDER.put(170, CHANNEL_OUTPUT_FREQUENCY);
         CHANNELS_XTENDER.put(56, CHANNEL_OPERATING_STATE);
         CHANNELS_XTENDER.put(98, CHANNEL_STATE_INVERTER);
@@ -143,10 +147,12 @@ public class StuderBindingConstants {
         UNIT_CHANNELS_XTENDER.put(22, VOLT);
         UNIT_CHANNELS_XTENDER.put(24, AMPERE);
         UNIT_CHANNELS_XTENDER.put(274, KILO(WATT));
+        UNIT_CHANNELS_XTENDER.put(162, KILO(WATT)HOURS);
         UNIT_CHANNELS_XTENDER.put(168, HERTZ);
         UNIT_CHANNELS_XTENDER.put(42, VOLT);
         UNIT_CHANNELS_XTENDER.put(44, AMPERE);
         UNIT_CHANNELS_XTENDER.put(272, KILO(WATT));
+        UNIT_CHANNELS_XTENDER.put(166, KILO(WATT)HOURS);
         UNIT_CHANNELS_XTENDER.put(170, HERTZ);
     }
 
